@@ -1,0 +1,20 @@
+{
+  "title": "测试编辑描述",
+  "answers": "C0pl",
+  "content": "",
+  "creator": "0x7d32D1DE76acd73d58fc76542212e86ea63817d8",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "score": 90,
+      "title": "test",
+      "options": ["Yes", "No"]
+    }
+  ],
+  "startTime": "2023-11-09T01:01:20.794Z",
+  "description": "",
+  "estimateTime": 600,
+  "passingScore": 90
+}
