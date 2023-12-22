@@ -1,0 +1,22 @@
+{
+  "title": "Chinese",
+  "answers": "C1gJamIBYC8xWz1v",
+  "content": "",
+  "creator": "0xFB8f64Dc5489ff9997eda9e7CD851F2cf2f6CA28",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    { "type": "fill_blank", "score": 1, "title": "1", "options": ["1"] },
+    {
+      "type": "multiple_choice",
+      "score": 2,
+      "title": "2",
+      "options": ["2", "1", "1", "1"]
+    },
+    { "type": "open_quest", "score": 3, "title": "3" }
+  ],
+  "startTime": "2023-12-22T01:06:48.183Z",
+  "description": "Chinese Challenge",
+  "estimateTime": 600,
+  "passingScore": 2
+}
