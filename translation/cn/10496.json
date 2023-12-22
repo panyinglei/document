@@ -1,0 +1,69 @@
+{
+  "title": "Create Test Multilingual 12.20--3",
+  "answers": "C1gJamIDYBp0G2Jvb1gSGj1JGRshXy0=",
+  "content": "",
+  "creator": "0xEDC7A0D20A563f9948D2D1332937b5f04F9670A2",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    {
+      "type": "fill_blank",
+      "score": 10,
+      "title": "Fill in the blank\n",
+      "options": ["1"]
+    },
+    {
+      "type": "multiple_choice",
+      "score": 10,
+      "title": "Single choice\n\n\n",
+      "options": [
+        "1",
+        "Because the data is linearly stored, not index-optimized",
+        "Correct answer",
+        " Because the node uses low-speed storage hardware"
+      ]
+    },
+    {
+      "type": "multiple_response",
+      "score": 10,
+      "title": "Multiple choice\n",
+      "options": [
+        "Correct answer",
+        "Immutability and transparency of data",
+        "Data compression and storage optimization",
+        "Correct answer"
+      ]
+    },
+    { "type": "open_quest", "score": 10, "title": "Open question\n" },
+    {
+      "type": "coding",
+      "input": ["1,2"],
+      "score": 10,
+      "title": "Programming question   ",
+      "output": ["3"],
+      "spj_code": [
+        {
+          "code": "const {\n  time,\n  loadFixture,\n} = require(\"@nomicfoundation/hardhat-network-helpers\");\nconst { anyValue } = require(\"@nomicfoundation/hardhat-chai-matchers/withArgs\");\nconst { expect } = require(\"chai\");\n\ndescribe(\"Counter\",function(){\n  async function deployConterFixture(){\n    const Counter = await ethers.getContractFactory(\"Counter\");\n    const counter = await Counter.deploy();\n    return counter\n  }\n  describe(\"Add\", function(){\n    it(\"test add methord\", async function(){\n      const Counter = await loadFixture(deployConterFixture);\n      // console.log(await Counter.add(1,2)+\"aaaaaaaaaaaaaaaaaaaaaaaaaaaa\");\n      await expect(await Counter.add(3,4)).to.equal(7);\n    });\n  })\n\n})",
+          "frame": "Hardhat"
+        },
+        {
+          "code": "\nimport \"forge-std/Test.sol\";\ncontract TestDeposit is Test{\n    Counter counter;\n    function setUp() public {\n            counter = new Counter();\n    }\n    function testUseAdd() public {\n            vm.startPrank(vm.addr(1));\n            assertEq(counter.add(1,2), 3);\n    }\n}\n",
+          "frame": "Foundry"
+        }
+      ],
+      "languages": ["Solidity"],
+      "description": "Programming question description\n",
+      "code_snippets": [
+        {
+          "code": "pragma solidity ^0.8.13;\ncontract Counter {\n    function add(uint x, uint y) public pure returns (uint z) {\n        z=x+y;\n    }\n}\n",
+          "lang": "Solidity",
+          "correctAnswer": "cgpKKSlcLWE3WD1bJ18TD3E7R0B1HUFLfSoiBiBWDkoEKDpOFBcyPyQfSmg1bSJhZBdxVDZYBAI4ChlOLFcUUDMfIhFvQFYYECIgGncBbnEgD1okJ1JsMTFFNBIxUxMDIwsETmVGGRYyVjZMb0MmVkVrbk53WGdxKkdAYzcKEC9kF3ESPmoJCw0LVQ=="
+        }
+      ]
+    }
+  ],
+  "startTime": "2023-12-22T02:16:25.372Z",
+  "description": "Create Test Multilingual 12.20--3 Description",
+  "estimateTime": 600,
+  "passingScore": 30
+}
