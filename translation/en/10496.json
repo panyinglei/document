@@ -10,7 +10,7 @@
       "type": "fill_blank",
       "score": 10,
       "title": "Fill in the blank\n",
-      "options": ["1"]
+      "options": ["test"]
     },
     {
       "type": "multiple_choice",
