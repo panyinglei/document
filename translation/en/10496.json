@@ -10,7 +10,7 @@
       "type": "fill_blank",
       "score": 10,
       "title": "填空--修改",
-      "options": ["1"]
+      "options": ["测试"]
     },
     {
       "type": "multiple_choice",
