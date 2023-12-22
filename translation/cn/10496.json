@@ -1,69 +1,69 @@
 {
-  "title": "Create Test Multilingual 12.20--3",
-  "answers": "C1gJamIDYBp0G2Jvb1gSGj1JGRshXy0=",
+  "title": "创建测试多语言12.20--1",
+  "answers": "C1gJamIDYBp0G2Jvb1gSGj1JGRshX1xKGw==",
   "content": "",
-  "creator": "0xEDC7A0D20A563f9948D2D1332937b5f04F9670A2",
+  "creator": "0xcE30daFeC1Dc17166d9fA0D25a05EeE742082c0E",
   "endTIme": null,
   "version": 1.2,
   "questions": [
     {
       "type": "fill_blank",
       "score": 10,
-      "title": "Fill in the blank\n",
-      "options": ["1"]
+      "title": "填空--修改",
+      "options": ["测试"]
     },
     {
       "type": "multiple_choice",
       "score": 10,
-      "title": "Single choice\n\n\n",
+      "title": "单选",
       "options": [
         "1",
-        "Because the data is linearly stored, not index-optimized",
-        "Correct answer",
-        " Because the node uses low-speed storage hardware"
+        "因为数据是线性存储的，而不是索引优化的",
+        "正确答案",
+        "因为节点使用的是低速存储硬件"
       ]
     },
     {
       "type": "multiple_response",
       "score": 10,
-      "title": "Multiple choice\n",
+      "title": "多选",
       "options": [
-        "Correct answer",
-        "Immutability and transparency of data",
-        "Data compression and storage optimization",
-        "Correct answer"
+        "正确答案",
+        " 数据的不可篡改性和透明性",
+        "数据压缩和存储优化",
+        "正确答案"
       ]
     },
-    { "type": "open_quest", "score": 10, "title": "Open question\n" },
+    { "type": "open_quest", "score": 10, "title": "开放题" },
     {
       "type": "coding",
       "input": ["1,2"],
       "score": 10,
-      "title": "Programming question   ",
+      "title": "编程题",
       "output": ["3"],
       "spj_code": [
         {
-          "code": "const {\n  time,\n  loadFixture,\n} = require(\"@nomicfoundation/hardhat-network-helpers\");\nconst { anyValue } = require(\"@nomicfoundation/hardhat-chai-matchers/withArgs\");\nconst { expect } = require(\"chai\");\n\ndescribe(\"Counter\",function(){\n  async function deployConterFixture(){\n    const Counter = await ethers.getContractFactory(\"Counter\");\n    const counter = await Counter.deploy();\n    return counter\n  }\n  describe(\"Add\", function(){\n    it(\"test add methord\", async function(){\n      const Counter = await loadFixture(deployConterFixture);\n      // console.log(await Counter.add(1,2)+\"aaaaaaaaaaaaaaaaaaaaaaaaaaaa\");\n      await expect(await Counter.add(3,4)).to.equal(7);\n    });\n  })\n\n})",
+          "code": "const {\n    time,\n    loadFixture,\n  } = require(\"@nomicfoundation/hardhat-network-helpers\");\n  const { anyValue } = require(\"@nomicfoundation/hardhat-chai-matchers/withArgs\");\n  const { expect } = require(\"chai\");\n  \n  describe(\"Counter\",function(){\n    async function deployConterFixture(){\n      const Counter = await ethers.getContractFactory(\"Counter\");\n      const counter = await Counter.deploy();\n      return counter\n    }\n    describe(\"Add\", function(){\n      it(\"test add methord\", async function(){\n        const Counter = await loadFixture(deployConterFixture);\n        // console.log(await Counter.add(1,2)+\"aaaaaaaaaaaaaaaaaaaaaaaaaaaa\");\n        await expect(await Counter.add(3,4)).to.equal(7);\n      });\n    })\n  \n  })",
           "frame": "Hardhat"
         },
         {
-          "code": "\nimport \"forge-std/Test.sol\";\ncontract TestDeposit is Test{\n    Counter counter;\n    function setUp() public {\n            counter = new Counter();\n    }\n    function testUseAdd() public {\n            vm.startPrank(vm.addr(1));\n            assertEq(counter.add(1,2), 3);\n    }\n}\n",
+          "code": "import \"forge-std/Test.sol\";\ncontract TestDeposit is Test{\n    Counter counter;\n    function setUp() public {\n            counter = new Counter();\n    }\n    function testUseAdd() public {\n            vm.startPrank(vm.addr(1));\n            assertEq(counter.add(1,2), 3);\n    }\n}\n",
           "frame": "Foundry"
         }
       ],
       "languages": ["Solidity"],
-      "description": "Programming question description\n",
+      "description": "编程题描述",
       "code_snippets": [
         {
-          "code": "pragma solidity ^0.8.13;\ncontract Counter {\n    function add(uint x, uint y) public pure returns (uint z) {\n        z=x+y;\n    }\n}\n",
+          "code": "pragma solidity ^0.8.13;\n\ncontract Counter {\n    function add(uint x, uint y) public pure returns (uint z) {\n        z=x+y;\n    }\n}\n",
           "lang": "Solidity",
-          "correctAnswer": "cgpKKSlcLWE3WD1bJ18TD3E7R0B1HUFLfSoiBiBWDkoEKDpOFBcyPyQfSmg1bSJhZBdxVDZYBAI4ChlOLFcUUDMfIhFvQFYYECIgGncBbnEgD1okJ1JsMTFFNBIxUxMDIwsETmVGGRYyVjZMb0MmVkVrbk53WGdxKkdAYzcKEC9kF3ESPmoJCw0LVQ=="
+          "correctAnswer": "cgpKKSlcLWE3WD1bJ18TD3E7R0B1HUFLfSoiOSFbFVYROS8NI1gEPiUUTC08ETcdKhdxEmNQEhgyER4BIxMRHCJeOQwhTFpASWs7BzkMZyh5Wkg9LF0lImRHJEAmFhUTJRAFAD4TWA0vGDhFNRFaQzklbk53WGdxcFpCdTYaNXoYWXESYxYaKj8YKwBv"
         }
       ]
     }
   ],
-  "startTime": "2023-12-22T02:16:25.372Z",
-  "description": "Create Test Multilingual 12.20--3 Description",
+  "startTime": "2023-12-20T07:29:10.572Z",
+  "description": "创建测试多语言12.20--1描述",
   "estimateTime": 600,
   "passingScore": 30
 }
