@@ -1,0 +1,20 @@
+{
+  "title": "Translation of Test Fill in the Blank Questions",
+  "answers": "C1hMLT1Fbhw=",
+  "content": "",
+  "creator": "0x7d32D1DE76acd73d58fc76542212e86ea63817d8",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    {
+      "type": "fill_blank",
+      "score": 10,
+      "title": "测试",
+      "options": ["测试"]
+    }
+  ],
+  "startTime": "2023-12-27T07:01:37.27Z",
+  "description": "",
+  "estimateTime": null,
+  "passingScore": 10
+}

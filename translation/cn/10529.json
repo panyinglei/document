@@ -1,0 +1,15 @@
+{
+  "title": "测试填空题翻译",
+  "answers": "C1hMLT1Fbhw=",
+  "content": "",
+  "creator": "0x7d32D1DE76acd73d58fc76542212e86ea63817d8",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    { "type": "fill_blank", "score": 10, "title": "test", "options": ["test"] }
+  ],
+  "startTime": "2023-12-27T07:01:37.27Z",
+  "description": "",
+  "estimateTime": null,
+  "passingScore": 10
+}
