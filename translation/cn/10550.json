@@ -1,0 +1,27 @@
+{
+  "title": "创建测试wagmi--01041030",
+  "answers": "C1gJamIDYBp2G2JvHg==",
+  "content": "",
+  "creator": "0xEDC7A0D20A563f9948D2D1332937b5f04F9670A2",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    { "type": "fill_blank", "score": 10, "title": "填空", "options": ["1"] },
+    {
+      "type": "multiple_choice",
+      "score": 10,
+      "title": "单选",
+      "options": ["1", "testnew1", "正确答案"]
+    },
+    {
+      "type": "multiple_response",
+      "score": 10,
+      "title": "多选",
+      "options": ["1", "testnew1", "正确答案", "正确答案"]
+    }
+  ],
+  "startTime": "2024-01-04T02:31:53.791Z",
+  "description": "创建测试wagmi--01041030描述",
+  "estimateTime": 1800,
+  "passingScore": 10
+}
