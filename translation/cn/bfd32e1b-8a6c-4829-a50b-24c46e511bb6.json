@@ -1,0 +1,15 @@
+{
+  "title": "测试多链nft调整",
+  "answers": "C1hAMGxs",
+  "content": "",
+  "creator": "0xd2AEc55186F9f713128d48087f0e2EF5F453ca79",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    { "type": "fill_blank", "score": 11, "title": "xx", "options": ["xx"] }
+  ],
+  "startTime": "2024-01-24T06:12:14.908Z",
+  "description": "",
+  "estimateTime": null,
+  "passingScore": 11
+}
