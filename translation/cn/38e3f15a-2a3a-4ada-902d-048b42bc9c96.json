@@ -1,0 +1,26 @@
+{
+  "title": "创建测试多语言--01251632",
+  "answers": "C0gUE3wdfxwZ",
+  "content": "",
+  "creator": "0xEDC7A0D20A563f9948D2D1332937b5f04F9670A2",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "score": 10,
+      "title": "单选",
+      "options": ["1", "testnew1", "正确答案"]
+    },
+    {
+      "type": "multiple_response",
+      "score": 10,
+      "title": "多选",
+      "options": ["1", "testnew1", "正确答案", "正确答案", "1"]
+    }
+  ],
+  "startTime": "2024-01-25T08:34:19.271Z",
+  "description": "创建测试多语言--01251632描述",
+  "estimateTime": 1800,
+  "passingScore": 10
+}
