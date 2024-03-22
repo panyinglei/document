@@ -1,0 +1,17 @@
+{
+  "title": "测试判题--03201540",
+  "answers": "CxRNJCIdIjQoW31cNloLKw==",
+  "content": "",
+  "creator": "0xEDC7A0D20A563f9948D2D1332937b5f04F9670A2",
+  "endTIme": null,
+  "version": 1.2,
+  "questions": [
+    { "type": "open_quest", "score": 10, "title": "开放题140" },
+    { "type": "open_quest", "score": 10, "title": "开放题2" },
+    { "type": "open_quest", "score": 10, "title": "开放题三" }
+  ],
+  "startTime": "2024-03-20T07:40:52.254Z",
+  "description": "测试判题--03201540描述",
+  "estimateTime": 1800,
+  "passingScore": 10
+}
